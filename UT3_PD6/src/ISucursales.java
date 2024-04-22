@@ -14,7 +14,7 @@ public interface ISucursales {
 
 
 
-    public ISucursales buscarPorNombre(Comparable sucursal);
+    public String buscarPorNombre(Comparable sucursal);
 
     public int cantidadSucursales();
 
